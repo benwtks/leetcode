@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/* Given a string, find the length of the longest substring without repeating characters.
+   https://leetcode.com/problems/longest-substring-without-repeating-characters/ */
+
 public class LengthOfLargestSubstring {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -23,7 +26,6 @@ public class LengthOfLargestSubstring {
         }
 
         biggestSubsetSize = Math.max(currentSubsetSize, biggestSubsetSize);
-
         System.out.println(biggestSubsetSize);
     }
 }
